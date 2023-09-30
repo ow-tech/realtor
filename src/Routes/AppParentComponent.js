@@ -71,6 +71,10 @@ function AppParentComponent() {
             element={renderLayout(<LandingPageBody spacing={5} />)}
           />
           <Route
+            path="/realtor"
+            element={renderLayout(<LandingPageBody spacing={5} />)}
+          />
+          <Route
             path="/listing/:name/:id"
             element={renderLayout(<ListingDetailPage spacing={5} />)}
           />
