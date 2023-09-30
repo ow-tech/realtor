@@ -1,0 +1,15 @@
+version: "3.8"
+services:
+  app:
+    build:
+      context: /opt/apps/portal-frontend/manseel-app
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - "/opt/apps/portal-frontend/manseel-app/src:/app/src"
+      - "/opt/apps/portal-frontend/manseel-app/public:/app/public"
+        #   - ".:/app"
+      - "/opt/config/.env:/app/.env"  
+    environment:
+      NODE_ENV: production

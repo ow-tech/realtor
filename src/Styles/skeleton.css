@@ -1,0 +1,28 @@
+/* Exclusive Card Skeleton CSS */
+.cardSkeleton {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px #1531622f;
+  background-color: #efefef;
+}
+.contentWrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+.boxSkeleton {
+  width: 10%;
+  padding-bottom: 5%;
+  right: 0;
+  margin-bottom: 24vh;
+  margin-left: 5px;
+}
+.lineSkeleton {
+  width: 100%;
+  height: 10px;
+  margin-top: 10px;
+}
+
+/* Exclusive Card Skeleton CSS */

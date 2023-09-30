@@ -1,0 +1,53 @@
+.footerStyles {
+  background-color: #153162;
+  color: white;
+  width: 100%;
+  /* padding: 0 3%; */
+}
+
+.footerStyles .MuiGrid-spacing-xs-4 {
+  margin-top: 0px;
+}
+
+.bottomGridFooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #153162;
+  color: white;
+  /* padding: 10px; */
+}
+
+.bottomGridFooter-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottomGridFooter-links a {
+  color: white;
+  margin: 0 10px;
+}
+
+.footer-flag {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.company-item {
+  display: block;
+  line-height: 1.5;
+}
+
+.mobileBox {
+  border: 1px solid white;
+  border-radius: 2px;
+  padding: 8px;
+}
+
+.footerLinks {
+  color: #fff !important;
+  cursor: pointer;
+}

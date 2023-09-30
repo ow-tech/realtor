@@ -1,0 +1,323 @@
+.carouselBox .carouselNavigationLeftBtn {
+  position: absolute;
+  top: 45%;
+  display: flex;
+  left: 0;
+}
+
+.carouselBox .carouselNavigationLeftBtn svg {
+  fill: #fff;
+}
+
+.carouselBox .carouselNavigationRightBtn svg {
+  fill: #fff;
+}
+
+.carouselBox .carouselNavigationRightBtn {
+  position: absolute;
+  top: 45%;
+  display: flex;
+  right: 0;
+  /* z-index: 3; */
+}
+
+.carouselBox {
+  position: relative;
+}
+
+.lightCarouselDots .MuiMobileStepper-dot {
+  border: 1px solid #fff;
+}
+
+.lightCarouselDots .MuiMobileStepper-dotActive {
+  background-color: #fff;
+}
+
+.darkCarouselDots .MuiMobileStepper-dot {
+  border: 1px solid #000;
+}
+
+.darkCarouselDots .MuiMobileStepper-dotActive {
+  background-color: #000;
+}
+
+.carouselNavigationLeftBtn.MuiButtonBase-root svg,
+.carouselNavigationRightBtn.MuiButtonBase-root svg {
+  fill: #fff;
+}
+
+.carouselNavigationLeftBtn.Mui-disabled svg,
+.carouselNavigationRightBtn.Mui-disabled svg {
+  fill: rgb(255, 255, 255, 0.7);
+}
+
+.carouselNavigationLeftBtn.MuiButtonBase-root,
+.carouselNavigationRightBtn.MuiButtonBase-root {
+  background: none;
+  padding: 0px;
+  margin: 0px;
+  min-width: 20px;
+  cursor: pointer;
+}
+
+.carouselNavigationLeftBtn.MuiButtonBase-root:hover,
+.carouselNavigationRightBtn.MuiButtonBase-root:hover {
+  background: none;
+}
+
+.carouselTypography.MuiPaper-root {
+  position: absolute;
+  flex-wrap: 1;
+  background-color: transparent;
+  color: #ffffff;
+  padding: 0 0 0.2rem 0.5rem;
+}
+
+.carouselStartingPrice svg,
+.carouselSizes svg {
+  fill: #fff;
+  margin: 0.5rem 0.4rem 0 0;
+}
+
+.carouselSizesGrid.MuiGrid-root {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 1.2rem 0 0;
+}
+
+.thumbnailImageButton.MuiButton-root {
+  padding: 0;
+}
+
+.carouselScrollableContent img {
+  margin-left: 4px;
+  height: 55px;
+}
+
+.carouselScrollableContent .activeThumbnail.MuiButton-root img {
+  border: 1px solid #000;
+  height: 53px;
+}
+
+.carouselScrollableContainer {
+  position: relative;
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.carouselScrollableContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.carouselScrollableContainer .carouselScrollableContent {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  z-index: 1;
+  align-items: center;
+  margin-top: 1px;
+}
+
+.carouselScrollableContent img {
+  border-radius: 5px;
+}
+
+.carouselScrollableContent .MuiButtonBase-root-MuiButton-root {
+  padding: 0;
+  border: 0;
+}
+
+.carouselScrollableContainer .carouselScrollButton svg {
+  fill: #fff;
+}
+
+.carouselScrollableContainer .carouselScrollLeft {
+  margin: 0 0 0 0;
+  left: 0;
+  border-radius: 5px 0 0 5px;
+}
+
+.carouselScrollableContainer .carouselScrollRight {
+  margin: 0 0 0 4px;
+  right: 0;
+  border-radius: 0 5px 5px 0;
+}
+
+.carouselScrollableContent .MuiButtonBase-root-MuiButton-root:hover {
+  border: 0;
+}
+
+.carouselScrollableContent .MuiButtonBase-root-MuiButton-root {
+  padding: 0;
+}
+
+.carouselScrollableContainer .carouselScrollButton {
+  position: sticky;
+  top: 30%;
+  padding: 0 2px 0 2px;
+  background-color: #000;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.MuiGrid-root .carouselBox .imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.cardBoxWrapper .carouselBox .imageContainer img {
+  border-radius: 5px;
+}
+
+.carouselBox .imageContainer img {
+  max-width: 100vw;
+  max-height: 100vh;
+}
+
+.thumbnailImgContain .imageContainer img {
+  object-fit: contain;
+}
+
+.carouselBox .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
+}
+
+.thumbnailCarouselFullImgDialog.MuiDialog-root .MuiPaper-root {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0);
+  position: relative;
+}
+
+.thumbnailCarouselFullImg.MuiBox-root {
+  width: 80%;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0);
+  transform: translateX(13%);
+}
+
+.thumbnailCarouselFullImgDialog.MuiDialog-root {
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  padding: 1% 0 0 0;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.thumbnailCarouselFullImgClose {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* CSS for the CustomSlider component */
+.customSlider {
+  position: relative;
+  width: 100vw; /* Full width of the viewport */
+  height: 100vh; /* Full height of the viewport */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  overflow: hidden;
+}
+
+.customImageContainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.customFullScreenImage {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.customOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
+}
+
+.customCarouselNavigationLeftBtn,
+.customCarouselNavigationRightBtn {
+  position: absolute;
+  width: 50px; /* Set the width of the buttons */
+  height: 50px; /* Set the height of the buttons */
+  /* background-color: rgba(255, 255, 255, 0.8); Button background color */
+  border: none;
+  cursor: pointer;
+}
+
+.customCarouselNavigationLeftBtn {
+  left: 0; /* Position the left button on the left-most side */
+}
+
+.customCarouselNavigationRightBtn {
+  right: 0; /* Position the right button on the right-most side */
+}
+
+/* .customCarouselNavigationLeftBtn:focus,
+.customCarouselNavigationRightBtn:focus {
+  outline: none;
+} */
+
+.customCarouselNavigationLeftBtn.MuiButtonBase-root:hover,
+.customCarouselNavigationRightBtn.MuiButtonBase-root:hover {
+  background-color: #000;
+}
+
+.customCarouselNavigationLeftBtn.MuiButtonBase-root svg,
+.customCarouselNavigationRightBtn.MuiButtonBase-root svg {
+  fill: #fff;
+}
+
+.customCarouselNavigationLeftBtn.MuiButtonBase-root svg:hover,
+.customCarouselNavigationRightBtn.MuiButtonBase-root svg:hover {
+  fill: #fff;
+  background-color: #000;
+}
+
+/* Adjust button styles as needed */
+
+@media (max-width: 1024px) {
+  .carouselSizesGrid.MuiGrid-root {
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 600px) {
+  .thumbnailCarouselFullImg.MuiBox-root {
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0);
+    transform: translateX(0%);
+    overflow-x: hidden;
+  }
+}

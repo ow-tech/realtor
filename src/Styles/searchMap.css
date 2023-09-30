@@ -1,0 +1,171 @@
+.mapContainerMain {
+  display: flex;
+}
+
+#map {
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 68vh;
+}
+
+.custom-marker {
+  background-color: #3bb2d0;
+  color: #fff;
+  padding: 8.2px 13px;
+  font-weight: bold;
+  border-radius: 50%;
+}
+
+/* SearchBar component */
+
+.sidebar {
+  padding: 20px;
+  background-color: #fff;
+}
+
+.customDirectionsControl {
+  margin-top: 15px;
+  position: relative;
+}
+
+.customDirectionsControl input {
+  width: calc(100% - 30px);
+  padding: 8px;
+  border: 0.3px solid #153162;
+  border-radius: 2px;
+}
+
+.customDirectionsControl .customDirectionSearchIcon {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+}
+
+.customDirectionsControl .customDirectionSearchIcon svg {
+  display: block;
+  fill: #fff;
+  background: #153162;
+  border-radius: 5px;
+  padding: 3px 2px 2px 4px;
+}
+
+.customDirectionsControl .suggestions {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #ccc;
+  border-top: none;
+  z-index: 13;
+}
+
+.customDirectionsControl .suggestions li {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.customDirectionsControl .suggestions li:hover {
+  background-color: #f0f0f0;
+}
+
+/* SearchAndRecents Component */
+
+.searchHistoryMainContainer {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-height: 100%;
+}
+
+.mapTransitHeading {
+  margin: 0 0 2% 0;
+}
+
+.searchHistoryDetails {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 5%;
+}
+
+.searchHistoryDetailContainer {
+  flex-direction: column;
+  margin-top: 5px;
+}
+
+.searchHistoryLocationIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.searchHistoryHr {
+  width: 95%;
+}
+
+.searchHistoryDeleteButton {
+  cursor: pointer;
+}
+
+.searchHistoryNote {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  /* margin: auto; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #e91e63;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  color: #ffffff;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.backgroundModerateCyan {
+  background-color: #3bb2d0;
+}
+
+.backgroundDesaturatedBlue {
+  background-color: #8a8bc9;
+}
+
+.searchHistoryNoteCircle {
+  display: flex;
+}
+
+@media (max-width: 915px) {
+  .searchHistoryNote {
+    position: absolute;
+    bottom: 50px;
+    justify-content: flex-end;
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 768px) {
+  .searchHistoryNote {
+    position: initial;
+    justify-content: flex-end;
+    flex-direction: row;
+  }
+
+  .searchHistoryNoteCircle {
+    margin-left: 10px;
+  }
+}

@@ -1,0 +1,299 @@
+.profileContainer {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.profilePic {
+  display: flex;
+  flex-direction: column;
+}
+
+.profileTabs {
+  display: flex;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.tabsContainer {
+  display: flex;
+}
+
+.tabItem {
+  cursor: pointer;
+}
+
+.tabItem.active {
+  background-color: #153162;
+  color: #fff;
+  fill: #fff;
+}
+
+.profileTab {
+  padding: 10px 20px 10px 20px;
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.menuDropdownButton {
+  position: relative;
+}
+
+.menuDropdown {
+  display: flex;
+  flex-direction: column;
+
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 999;
+  background-color: #fff;
+  color: #153162;
+  border: 1px solid #ccc;
+}
+
+.menuDropdown .profileMenuItem,
+.profileDeleteBtn {
+  padding: 5px 10px 5px 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.menuDropdown .profileMenuItem {
+  margin-bottom: 5px;
+}
+
+.menuDropdown .profileMenuItem:hover {
+  background: #153162;
+  color: #fff;
+}
+
+.profileDeleteBtn {
+  color: #ae0917;
+}
+
+.menuDropdown .profileDeleteBtn:hover {
+  background: #153162;
+  color: red;
+}
+
+/* Input Field */
+
+.width94 {
+  width: 94%;
+}
+
+.mt10px.MuiGrid-root {
+  margin-top: 10px;
+}
+
+.inputWithChange {
+  display: flex;
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+}
+
+.inputWithChange input {
+  flex-grow: 1;
+  padding: 10px 0px 10px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 0.5px solid #153162;
+}
+
+.inputWithChangeBtn {
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  text-decoration: underline;
+  color: #b1b1b1;
+}
+
+.disableEmailInput {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 16px;
+  color: #b1b1b1;
+  border: 0.5px solid #153162;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.datePickerContainer .react-datepicker-wrapper {
+  display: block;
+  margin-top: 10px;
+}
+
+.customDatePicker {
+  position: relative;
+}
+
+.customDatePickerInput {
+  border: 0.5px solid #153162;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.customDatePickerInput:focus {
+  outline: none;
+}
+
+.calendarButton {
+  position: absolute;
+  top: 25%;
+  right: 4%;
+  fill: #153162;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.nationalitySelect {
+  border: 0.5px solid #153162;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.profileCountryCode .MuiOutlinedInput-notchedOutline {
+  border: 0.5px solid #153162 !important;
+}
+
+.profileCountryCode
+  .MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root.Mui-focused
+  .MuiOutlinedInput-notchedOutline {
+  border: 0.5px solid #153162 !important;
+}
+
+.profileCountryCode svg {
+  color: #153162;
+}
+/* Input Field */
+
+.profileSaveBtn.MuiButton-root {
+  width: 15%;
+  margin-top: 2%;
+}
+
+.searchNotificationContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.customRadio.Mui-checked svg {
+  fill: #fff;
+  font-size: 10px;
+}
+
+.customRadio.Mui-checked {
+  padding: 0;
+  border: 12px solid #153162;
+  transform: scale(0.4);
+}
+
+.deleteAccountContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.deleteBtnText {
+  color: #ae0917;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Settings */
+
+.settingPassChangeNote {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Settings */
+
+/* Saved Searches */
+
+.savedSearchContainer {
+  padding: 20px 20px 20px 25px;
+  background-color: #e9e9e9;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.savedSearchRemoveBtn {
+  text-align: center;
+  cursor: pointer;
+}
+
+.savedSearchAreaText {
+  display: flex;
+  flex-direction: column;
+}
+
+.savedSearchesCardContainer {
+  display: flex;
+  height: 100%;
+}
+
+/* Saved Searches */
+
+.profileMobInput {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.customButtonDark.profileMobVerifyBtn.MuiButtonBase-root {
+  max-height: 2.6rem;
+}
+
+.profileVerifyBtnDisabled.profileMobVerifyBtn.MuiButtonBase-root {
+  background-color: #c2c2c2;
+}
+
+.profileVerifyBtnSpacer {
+  display: none;
+}
+
+/* Profile mobile Otp */
+
+.profileNumInputOTP .authForm .MuiFormControl-root .MuiInputBase-root {
+  border: 1px solid #153162;
+}
+
+.profileNumInputOTP .authForm .MuiFormControl-root .MuiInputBase-root input {
+  color: #153162;
+  width: 20px;
+}
+
+.profileNumInputOTP.authFormWrapper
+  .MuiStack-root
+  .resendButton.MuiButton-root.Mui-disabled {
+  color: #153162;
+  background-color: #fff;
+}
+
+/* Profile mobile Otp */
+
+@media (min-width: 600px) {
+  .profileMobInput input {
+    margin-right: 5px;
+  }
+}
+
+@media (max-width: 600px) {
+  .profileVerifyBtnSpacer {
+    display: block;
+    margin-top: 5px;
+  }
+}
