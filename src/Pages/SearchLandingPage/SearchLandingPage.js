@@ -225,7 +225,7 @@ const filteredListings = listings.filter((item) => {
   return isPriceInRange && isAreaInRange && isStateMatched && isParamsNameMatched && isPropertyTypeMatched && isExclusivityMatched;
 });
 
-console.log('filteredListings',filteredListings);
+// console.log('filteredListings',filteredListings);
 
 
     // await getFilteredSearchData(payload)

@@ -217,7 +217,7 @@ export const devlopmentImages = [
   {
     imgLabel: "Regalia",
     imgPath:
-      "https://ik.imagekit.io/valcom123/images/manseel/newdevelopments/regalia.jpg",
+      "https://res.cloudinary.com/dameisncm/image/upload/v1730925443/realtor/pexels-mikebirdy-768877_rpdutj.jpg",
     price: "AED 627K",
     community: "Regalia",
     sizes: "Studio, 1, 2, 3",
@@ -225,7 +225,7 @@ export const devlopmentImages = [
   {
     imgLabel: "Nara - The Valley",
     imgPath:
-      "https://ik.imagekit.io/valcom123/images/manseel/newdevelopments/nara.jpg",
+      "https://res.cloudinary.com/dameisncm/image/upload/v1730925442/realtor/pexels-felipepelaquim-2007529_raavfz.jpg",
     price: "AED 1,34M",
     community: "Nara - The Valley",
     sizes: "3 & 4 Bedroom Townhouses",
@@ -233,7 +233,7 @@ export const devlopmentImages = [
   {
     imgLabel: "La Sirene – Port de La Mer",
     imgPath:
-      "https://ik.imagekit.io/valcom123/images/manseel/newdevelopments/laSirene.jpg",
+      "https://res.cloudinary.com/dameisncm/image/upload/v1730925442/realtor/pexels-lucaspezeta-3197765_xjzacn.jpg",
     price: "AED 1,29M",
     community: "La Sirene – Port de La Mer",
     sizes: "1, 2, 3, 4, 6 Bedroom Apartments",
@@ -244,7 +244,7 @@ export const citiesImages = [
   {
     imgLabel: "Costa Careyes",
     imgPath:
-      "https://ik.imagekit.io/valcom123/images/manseel/international/costaCareyes.jpg",
+      "https://res.cloudinary.com/dameisncm/image/upload/v1730925443/realtor/pexels-mikebirdy-768877_rpdutj.jpg",
     city: "Costa Careyes",
     country: "Mexico",
     countryFlag: <CountryFlagsSvg countryCode="MX" />,
@@ -252,7 +252,7 @@ export const citiesImages = [
   {
     imgLabel: "Saanen, Bern",
     imgPath:
-      "https://ik.imagekit.io/valcom123/images/manseel/international/saanen.jpg",
+      "https://res.cloudinary.com/dameisncm/image/upload/v1730925442/realtor/pexels-felipepelaquim-2007529_raavfz.jpg",
     city: "Saanen, Bern",
     country: "Switzerland",
     countryFlag: <CountryFlagsSvg countryCode="CH" />,
@@ -260,7 +260,7 @@ export const citiesImages = [
   {
     imgLabel: "Chatellerault, Nouvelle Aquitaine",
     imgPath:
-      "https://ik.imagekit.io/valcom123/images/manseel/international/chatellerault.jpg",
+      "https://res.cloudinary.com/dameisncm/image/upload/v1730925442/realtor/pexels-felipepelaquim-2007529_raavfz.jpg",
     city: "Chatellerault, Nouvelle Aquitaine",
     country: "France",
     countryFlag: <CountryFlagsSvg countryCode="FR" />,
@@ -268,7 +268,7 @@ export const citiesImages = [
   {
     imgLabel: "Beverly Hills, California",
     imgPath:
-      "https://ik.imagekit.io/valcom123/images/manseel/international/beverlyHills.jpg",
+      "https://res.cloudinary.com/dameisncm/image/upload/v1730925441/realtor/pexels-anon-213834-754277_g5ieno.jpg",
     city: "Beverly Hills, California",
     country: "USA",
     countryFlag: <CountryFlagsSvg countryCode="US" />,
@@ -276,8 +276,7 @@ export const citiesImages = [
   {
     imgLabel: "Caldes de Malavella, Girona",
     imgPath:
-      "https://ik.imagekit.io/valcom123/images/manseel/international/caldes.jpg",
-    city: "Caldes de Malavella, Girona",
+      "https://res.cloudinary.com/dameisncm/image/upload/v1730925442/realtor/pexels-lucaspezeta-3197765_xjzacn.jpg",
     country: "Spain",
     countryFlag: <CountryFlagsSvg countryCode="SP" />,
   },
@@ -286,61 +285,61 @@ export const citiesImages = [
 export const findArea = [
   {
     imgLabel: "Dubai Marina",
-    imgPath: `${CDNPath}/findarea/Marina01.png`,
+    imgPath: `https://res.cloudinary.com/dameisncm/image/upload/v1730927691/realtor/dubai_marina_dkvnyh.jpg`,
     link: "/specificneighbourhood/Dubai Marina",
     areaName:"Dubai Marina"
   },
 
   {
     imgLabel: "Downtown Dubai",
-    imgPath: `${CDNPath}/findarea/Downtown01.png`,
+    imgPath: `https://res.cloudinary.com/dameisncm/image/upload/v1730927691/realtor/downtown_dubai_xsn12c.jpg`,
     link: "/specificneighbourhood/Downtown Dubai",
     areaName:"Downtown Dubai"
   },
 
   {
     imgLabel: "Business Bay",
-    imgPath: `${CDNPath}/findarea/BusinessBay01.png`,
-    link: "/specificneighbourhood/Business Bay",
+    imgPath: `https://res.cloudinary.com/dameisncm/image/upload/v1730927691/realtor/business_bay_vsrwyx.jpg`,
+    link:  "/comingsoon",
     areaName:"Business Bay"
     
   },
 
   {
     imgLabel: "Meydan",
-    imgPath: `${CDNPath}/findarea/Meydan01.png`,
+    imgPath: `https://res.cloudinary.com/dameisncm/image/upload/v1730927692/realtor/6.Meydan_Masterplan_le7zx1.jpg`,
     link: "/comingsoon",
     areaName:"Al Meydan"
   },
   {
     imgLabel: "Palm Jumeirah",
-    imgPath: `${CDNPath}/findarea/PalmJumeirah01.png`,
+    imgPath: `https://res.cloudinary.com/dameisncm/image/upload/v1730927691/realtor/palm_d89m9q.jpg`,
     link: "/comingsoon",
     areaName:"Palm Jumeirah"
     
   },
   {
     imgLabel: "Jumeirah Village Circle",
-    imgPath: `${CDNPath}/findarea/JumeirahVillageCircle01.png`,
-    link: "/specificneighbourhood/Jumeirah Village Circle",
+    imgPath: `https://res.cloudinary.com/dameisncm/image/upload/v1730927691/realtor/jvc_i1g1uf.jpg`,
+    link:  "/comingsoon",
     areaName:"Jumeirah Village Circle"
   },
   {
     imgLabel: "The Greens and Views",
-    imgPath: `${CDNPath}/findarea/GreensAndViews01.png`,
+    imgPath: `https://res.cloudinary.com/dameisncm/image/upload/v1730927691/realtor/palm_d89m9q.jpg`,
     link: "/comingsoon",
     areaName:"The Greens and Views"
   },
   {
     imgLabel: "Arabian Residences",
-    imgPath: `${CDNPath}/findarea/ArabianResidences01.png`,
+    imgPath: `https://res.cloudinary.com/dameisncm/image/upload/v1730927976/realtor/arabs_soyfll.jpg`,
     link: "/comingsoon",
     areaName:"Arabian Residences"
   },
   {
     imgLabel: "Dubai International Financial Center (DIFC)",
-    imgPath: `${CDNPath}/findarea/DubaiInternationCityCenter01.png`,
-    link: "/specificneighbourhood/Dubai International Financial Center",
+    imgPath: `https://res.cloudinary.com/dameisncm/image/upload/v1730927976/realtor/arabs_soyfll.jpg`,
+    link:  "/comingsoon",
     areaName:"Dubai International Financial Center (DIFC)"
   },
 ];
