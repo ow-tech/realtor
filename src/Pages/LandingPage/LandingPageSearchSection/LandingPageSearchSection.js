@@ -10,7 +10,7 @@ function PageSearchArea({ heading, hasBuyRent, searchAreaPositionClass, imgUrl, 
       <ErrorBoundary FallbackComponent={ErrorBoundaryFallBack}>
         <div className="landingPageSearch">
           <div className="homePageBackgroundImage">
-            <LazyLoadImage src={imgUrl} alt={imgAlt} width={2734} height={1636} className="homePageBackgroundImage" />
+            <LazyLoadImage src={imgUrl} alt={imgAlt} width={2734} height={100} className="homePageBackgroundImage" />
           </div>
 
           <div className={`LandingPageSearchAreaWrapper ${searchAreaPositionClass}`}>

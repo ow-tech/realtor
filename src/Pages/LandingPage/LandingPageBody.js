@@ -24,7 +24,7 @@ function LandingPageBody() {
     selectedCountry,
     exclusiveListings,
     setExclusiveListings,
-    listings
+    listings,
   } = useContext(AppContext);
   const [exclusiveFlag, setExclusiveFlag] = useState(false);
   const [mapFlag, setMapFlag] = useState(false);
@@ -90,11 +90,10 @@ function LandingPageBody() {
   // }, [inViewMap, selectedCountry]);
 
   useEffect(() => {
-   setExclusiveListings(listings)
-   setMapList(listings)
+    const exclusiveListings = listings.filter(listing => listing.exclusive === 'Yes');
+    setExclusiveListings(exclusiveListings);
+    setMapList(exclusiveListings);
   }, [selectedCountry]);
-
-
 
   return (
     <ErrorBoundary FallbackComponent={ErrorBoundaryFallBack}>
@@ -105,11 +104,14 @@ function LandingPageBody() {
           <PageSearchArea
             heading={"Find your home"}
             hasBuyRent={true}
-            imgUrl={`${cdnPath}/hp/HomePage.webp`}
+            imgUrl={`https://res.cloudinary.com/dameisncm/image/upload/v1730921108/realtor/pexels-vividcafe-681368_tqoteu.jpg`}
             placeHolderUrl={`${cdnPath}/assets/HomePageHeaderPlaceholder`}
             imgAlt={"Luxurious contemporary house in Dubai"}
             loading={loading}
             setLoading={setLoading}
+            // size={width:"";
+            //   height:'2000px';
+            // }
           />
           <LandingPageExclusiveSection
             referrer={exclusiveSectionRef}
