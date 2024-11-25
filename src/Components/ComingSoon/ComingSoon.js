@@ -22,7 +22,7 @@ function ComingSoon() {
           <Typography variant="GothamBlack18">Coming soon</Typography>
         </Grid>
         <Grid item className="comingSoonButtonWrapper">
-          <Link to="/" className="cardContentLowerLink">
+          <Link to="/realtor/" className="cardContentLowerLink">
             <CustomButton text="Back to home" leftIcon={<ButtonLeftArrow />} variant="outlined" customClassName="signInButton" />
           </Link>
         </Grid>

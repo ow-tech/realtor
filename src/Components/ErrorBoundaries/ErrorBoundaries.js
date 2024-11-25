@@ -8,8 +8,8 @@ function ErrorBoundaryFallBack({ error, resetErrorBoundary }) {
   const navigate = useNavigate();
 
   const goToPageOnClick = () => {
-    navigate("/");
-    navigate(0);
+    window.location.href = "https://ow-tech.github.io/realtor/";
+
   };
   return (
     <Box className="errorBoundaryWrapper">
